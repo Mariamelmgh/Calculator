@@ -29,6 +29,7 @@
 		407B74792A838CF300E9EB5F /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407B74782A838CF300E9EB5F /* ThemeFont.swift */; };
 		407B747C2A838D7100E9EB5F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407B747B2A838D7100E9EB5F /* UIColor+Extension.swift */; };
 		407B747F2A8ACA1100E9EB5F /* LabelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407B747E2A8ACA1100E9EB5F /* LabelFactory.swift */; };
+		40FE98BA2A8E984C00B080BF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FE98B92A8E984C00B080BF /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		407B74782A838CF300E9EB5F /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
 		407B747B2A838D7100E9EB5F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		407B747E2A8ACA1100E9EB5F /* LabelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFactory.swift; sourceTree = "<group>"; };
+		40FE98B92A8E984C00B080BF /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				407B747B2A838D7100E9EB5F /* UIColor+Extension.swift */,
+				40FE98B92A8E984C00B080BF /* UIView+Extension.swift */,
 			);
 			path = Extention;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				407B74302A82DEA300E9EB5F /* CalculatorVC.swift in Sources */,
+				40FE98BA2A8E984C00B080BF /* UIView+Extension.swift in Sources */,
 				407B746B2A83874800E9EB5F /* LogoView.swift in Sources */,
 				407B74772A838CE700E9EB5F /* ThemeColor.swift in Sources */,
 				407B747C2A838D7100E9EB5F /* UIColor+Extension.swift in Sources */,
@@ -527,8 +531,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4363U5NBM7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -542,6 +548,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mariam.intro.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -553,8 +560,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4363U5NBM7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -568,6 +577,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = mariam.intro.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
