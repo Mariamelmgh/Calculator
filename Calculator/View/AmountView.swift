@@ -51,6 +51,7 @@ class AmountView: UIView{
     
     
     private func  layout(){
+    //    backgroundColor = .red
         addSubview(stackView)
         stackView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
